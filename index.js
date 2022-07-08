@@ -1,9 +1,14 @@
 const bcrypt = require('bcrypt');
 
+// const hashPassword = async (pw) => {
+//   const salt = await bcrypt.genSalt(12);
+//   const hash = await bcrypt.hash(pw, salt);
+//   console.log(salt);
+//   console.log(hash);
+// }
+
 const hashPassword = async (pw) => {
-  const salt = await bcrypt.genSalt(12);
-  const hash = await bcrypt.hash(pw, salt);
-  console.log(salt);
+  const hash = await bcrypt.hash(pw, 12);
   console.log(hash);
 }
 
@@ -17,4 +22,5 @@ const login = async (pw, hashedPw) => {
 }
 
 // hashPassword('monkey');
-login('monkey', '$2b$12$6I9fKh.lXQMeigToDfmIleAcaPpt3X08NkrYoWHT1ZkpXAgJiy8pS');
+
+login('monkey', '$2b$12$ZWDc6mb5gC2sBi3TIgnI..KngHShrWaBF4S6/CzXrC1NXimqk01OO');
