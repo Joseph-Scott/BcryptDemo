@@ -1,0 +1,23 @@
+{
+  "name": "bcryptdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseph-Scott/BcryptDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joseph-Scott/BcryptDemo/issues"
+  },
+  "homepage": "https://github.com/Joseph-Scott/BcryptDemo#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1"
+  }
+}
